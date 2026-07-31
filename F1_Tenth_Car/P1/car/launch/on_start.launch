@@ -1,0 +1,7 @@
+<launch>
+   <!-- <include file="$(find car)/launch/semantic_segmentation.launch" /> -->
+  <!-- <include file="$(find car)/launch/object_detection.launch" /> -->
+  
+  <node pkg="car" name="brake" type="brake.py" output = 'screen'>
+  </node>
+</launch>
